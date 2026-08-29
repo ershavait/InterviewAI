@@ -9,9 +9,8 @@ import userRouter from "./routes/user.route.js"
 import interviewRouter from "./routes/interview.route.js"
 import paymentRouter from "./routes/payment.route.js"
 
-const app = express()
 app.use(cors({
-    origin:"https://interviewai-hmc5.onrender.com/",
+    origin:"https://interviewai-hmc5.onrender.com",
     credentials:true
 }))
 
